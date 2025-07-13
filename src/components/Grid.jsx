@@ -5,7 +5,7 @@ import Card from "./Card";
 function Grid() {
   return (
     <>
-      <div className="flex gap-4 h-screen pt-20 flex items-center justify-center">
+      <div className="flex gap-4 h-screen pt-20">
         {/* column 1 has two rows */}
         <div className="flex-1 flex flex-col gap-2 ">
           <TypePolaroid />
