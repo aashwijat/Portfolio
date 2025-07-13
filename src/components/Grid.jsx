@@ -1,25 +1,24 @@
 import Polaroid from "./Polaroid";
 import Quote from "./Quote";
 import TypePolaroid from "./TypePolaroid";
+import Card from "./Card";
 function Grid() {
   return (
     <>
-      <div className="grid grid-cols-3 gap-x-1 gap-y-1 pl-105 pr-105 h-screen w-screen items-center justify-center">
-        {/* <!-- Column 1 - 2 rows --> */}
-        <div className="grid grid-rows-2 gap-3">
+      <div className="flex gap-4 h-screen pt-20 flex items-center justify-center">
+        {/* column 1 has two rows */}
+        <div className="flex-1 flex flex-col gap-2 ">
           <TypePolaroid />
           <Polaroid />
         </div>
-
-        {/* <!-- Column 2 - 3 rows --> */}
-        <div className="grid grid-rows-3 gap-3">
+        {/* column 2 has three rows */}
+        <div className="flex-1 flex flex-col gap-2">
+          <Card />
           <Polaroid />
-          <Polaroid />
-          <Polaroid />
+          <Card />
         </div>
-
-        {/* <!-- Column 3 - 4 rows --> */}
-        <div className="grid grid-rows-2 gap-3">
+        {/* column 3 has 2 rows */}
+        <div className="flex-1 flex flex-col gap-2">
           <Polaroid />
           <Quote />
         </div>
