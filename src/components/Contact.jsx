@@ -23,6 +23,14 @@ function Contact() {
                 >
                   {" "}
                   linkedin
+                </a>{" "}
+                |
+                <a
+                  href="https://drive.google.com/file/d/1mz_X1nWfR_tmMNx9CTaCi7D8orhqZiW4/view?usp=sharing"
+                  className="!text-[#107373]/80 !hover:text-gray-800 !visited:text-[#107373]"
+                >
+                  {" "}
+                  resume
                 </a>
               </span>
             </div>
