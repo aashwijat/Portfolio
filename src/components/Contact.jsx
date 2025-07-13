@@ -4,7 +4,7 @@ function Contact() {
     <>
       <Card>
         <div className="text-center">
-          <div className="polaroid-name">
+          <div className="playfair-card">
             <span className="block text-[#107373]/50 text-3xl font-bold pt-12">
               Let's Connect!
             </span>
