@@ -3,7 +3,7 @@ import profileImage from "../assets/profile.png";
 function Polaroid() {
   return (
     <>
-      <div className="polaroid-film bg-white p-6 pb-16 w-80 h-100 rounded-lg shadow-xl max-w-sm transform">
+      <div className="polaroid-film bg-white p-6 pb-16 w-70 h-80 rounded-lg shadow-xl max-w-sm transform">
         <div className="polaroid-image bg-gray-100 mb-4">
           <img
             src={profileImage}
