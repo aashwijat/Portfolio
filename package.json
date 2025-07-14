@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build -r https://github.com/aashwijat/Portfolio.git",
     "clean": "rm -rf dist"
   },
   "dependencies": {
