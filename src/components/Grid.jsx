@@ -11,7 +11,7 @@ function Grid() {
         {/* column 1 has two rows */}
         <div className="flex-1 flex flex-col gap-2 ">
           <TypePolaroid />
-          <Polaroid />
+          <Education />
         </div>
         {/* column 2 has three rows */}
         <div className="flex-1 flex flex-col gap-2">
@@ -21,7 +21,7 @@ function Grid() {
         </div>
         {/* column 3 has 2 rows */}
         <div className="flex-1 flex flex-col gap-2">
-          <Education />
+          <Polaroid />
           <Quote />
         </div>
       </div>
