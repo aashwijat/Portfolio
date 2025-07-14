@@ -4,6 +4,7 @@ import TypePolaroid from "./TypePolaroid";
 import Contact from "./Contact";
 import Skills from "./Skills";
 import Education from "./Education";
+import Project from "./Project";
 function Grid() {
   return (
     <>
@@ -21,7 +22,7 @@ function Grid() {
         </div>
         {/* column 3 has 2 rows */}
         <div className="flex-1 flex flex-col gap-2">
-          <Polaroid />
+          <Project />
           <Quote />
         </div>
       </div>
