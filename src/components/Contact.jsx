@@ -9,7 +9,7 @@ function Contact() {
               Let's Connect!
             </span>
             <div className="playfair-card">
-              <span className="block text-xl font-bold text-[#107373]/80">
+              <span className="block text-lg font-bold text-[#107373]/80">
                 <a
                   href="mailto:aashwijathantry613@gmail.com"
                   className="!text-[#107373]/80 !hover:text-gray-800 !visited:text-[#107373]"
